@@ -5,7 +5,7 @@ SELECT
 FROM 
     portfolio p
 WHERE 
-    EXISTS (SELECT 1 FROM transaction t JOIN portfolio_stock ps ON t.portfoliostock_id = ps.portfoliostock_id WHERE ps.portfolio_id = p.portfolio_id AND t.transaction_date = '2022-01-01');
+    EXISTS (SELECT 1 FROM transaction t JOIN portfolio_stock ps ON t.portfoliostock_id = ps.portfoliostock_id WHERE ps.portfolio_id = p.portfolio_id AND t.transaction_date = '2024-01-12');
 
 -- Example output:
 -- portfolio_id | portfolio_name
