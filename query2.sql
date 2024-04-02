@@ -18,8 +18,8 @@ JOIN
 WHERE 
     t.type = 'Buy' 
     AND s.ticker_symbol = 'AAPL' 
-    AND p.portfolio_name = 'Tech Stocks';
+    AND p.portfolio_name = 'Tech Titans';
 
 -- Example output:
 -- transaction_id | transaction_date | type | quantity | price_per_share | ticker_symbol | portfolio_name
--- 5              | 2022-01-05       | Buy  | 10       | 145.00          | AAPL          | Tech Stocks
+-- 5              | 2022-01-05       | Buy  | 10       | 145.00          | AAPL          | Tech Titans
